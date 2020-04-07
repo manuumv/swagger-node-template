@@ -1,0 +1,2 @@
+HealthStatus:
+  $ref: ./HealthStatus.yaml

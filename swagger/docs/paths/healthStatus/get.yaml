@@ -1,0 +1,14 @@
+description: Returns the health status
+summary: Get the health status
+operationId: getHealthStatus
+responses:
+  200:
+    description: OK
+    content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/HealthStatus'
+  500:
+    description: Internal server error
+tags:
+  - HealthStatus

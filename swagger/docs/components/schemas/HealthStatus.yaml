@@ -1,0 +1,8 @@
+type: object
+properties:
+  status:
+    type: string
+    description: server status
+    example: up
+required:
+  - status
